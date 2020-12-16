@@ -6,14 +6,18 @@ body {
 #header {
     grid-row: 1 / 2;
     grid-column: 1 / 15;
-    padding: 20px;
     border-bottom: 1px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 #grid {
     display: grid;
     grid-template-columns: 16.6vw 1px 16.6vw 1px 16.6vw 1px 16.6vw;
-    grid-template-rows: 50px 16.6vw 16.6vw 16.6vw 16.6vw;
+    grid-template-rows: 40px 16.6vw 16.6vw 16.6vw 16.6vw;
     width: 98%;
     height: 100%;
 }
@@ -34,5 +38,5 @@ body {
     width: 1px;
     background-color: black;
     z-index: 9;
-    height: 100vh;
+    height: 16.6vw;
 }
